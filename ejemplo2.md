@@ -1,3 +1,8 @@
+# Ejemplo 2: Simulación de un Autolavado
+
+En este caso, aumentamos un poco la capacidad. Simulamos un autolavado que tiene **dos máquinas** de lavado trabajando al mismo tiempo.
+
+```python
 import simpy
 
 def lavado_auto(env, nombre, autolavado):
